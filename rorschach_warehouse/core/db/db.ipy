@@ -1,0 +1,18 @@
+# db.py
+"""
+Módulo para interactuar con la base de datos.
+
+Contiene funciones y objetos para realizar operaciones de base de datos.
+"""
+
+from typing import Any
+
+def session() -> Any:
+    """
+    Devuelve una sesión de base de datos.
+
+    Returns:
+        Any: La sesión de base de datos.
+    """
+
+models: Any = ...
